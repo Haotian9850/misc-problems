@@ -25,5 +25,10 @@ public class ReverseLinkedList {
         System.out.println(head.toString());
         ListNode reversedHead = reverseLinkedListIterative(head);
         System.out.println(reversedHead.toString());
+
+        int[] nums = {1, 2, 3, 4, 5, 6, 7};
+        ListNode result = new ListNode(nums);
+        System.out.println(result.toString());
+
     }
 }
