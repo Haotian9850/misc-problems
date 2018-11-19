@@ -9,8 +9,8 @@ public class MissingNumber {
         int size = nums.length;
         int a = 0, b = size - 1;
         int mid = 0;
-        while ((b - a) > 1){  //cannot use b > a
-            mid = (a + b) / 2;
+        while ((b > a + 1)){  //cannot use b > a
+            mid = a + (b - a) / 2;
             if ((nums[a] - a) != (nums[mid] - mid))
                 b = mid;
             else if ((nums[b] - b) != (nums[mid] - mid))
