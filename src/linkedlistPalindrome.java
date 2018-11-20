@@ -42,7 +42,7 @@ public class linkedlistPalindrome {
     }
 
     public static void main(String[] args){
-        int[] nums = {1, 2, 3, 4, 4, 3, 2, 1, 5};
+        int[] nums = {1, 2, 3, 4, 4, 3, 2, 1, 5, 1};
         ListNode head = new ListNode(nums);
         System.out.println(isPalindrome(head));
     }
