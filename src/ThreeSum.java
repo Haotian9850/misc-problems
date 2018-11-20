@@ -6,7 +6,7 @@ public class ThreeSum {
 
 
     public static List<int[]> threeSum(int[] nums, int target){
-        
+
         List<int[]> result = new ArrayList<>();
         int n = nums.length - 1;
         Arrays.sort(nums);

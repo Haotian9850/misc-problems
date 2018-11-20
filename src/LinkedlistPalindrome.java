@@ -1,4 +1,4 @@
-public class linkedlistPalindrome {
+public class LinkedlistPalindrome {
 
     public static boolean isPalindrome(ListNode head){
         //reverse half approach: need to handle odd and even number of nodes
