@@ -6,17 +6,18 @@ public class MissingNumber {
 
     public static int find(int[] nums){
         //binary search approach, index-based
-        int size = nums.length;
-        int a = 0, b = size - 1;
-        int mid = 0;
-        while ((b > a + 1)){  //cannot use b > a
-            mid = a + (b - a) / 2;
-            if ((nums[a] - a) != (nums[mid] - mid))
-                b = mid;
-            else if ((nums[b] - b) != (nums[mid] - mid))
-                a = mid;
-        }
-        return b;
+       int size = nums.length;
+       int left = 0;
+       int right = size - 1;
+       while(right > left + 1){ //note: cannot simply used right > left!
+           int mid = left + (right - left) / 2;
+           if(nums[left] - left != nums[mid] - mid){
+               right = mid;
+           }else if(nums[right] - right != nums[mid] - mid){
+               left = mid;
+           }
+       }
+       return right;
     }
 
     public static void main(String[] args){
