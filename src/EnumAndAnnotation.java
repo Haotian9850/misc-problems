@@ -24,7 +24,7 @@ public class EnumAndAnnotation {
     }
 
     public static boolean isWeekday(DaysInAWeek day){
-        return day != DaysInAWeek.SATURDAY && day !=x DaysInAWeek.SUNDAY;
+        return day != DaysInAWeek.SATURDAY && day != DaysInAWeek.SUNDAY;
     }
 
 
