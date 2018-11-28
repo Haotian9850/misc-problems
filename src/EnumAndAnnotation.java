@@ -1,3 +1,7 @@
+import java.util.EnumSet;
+import java.util.HashSet;
+import java.util.Set;
+
 public class EnumAndAnnotation {
     /*
     * An enum type is a special data type that enables for a variable to be a set of predefined constants. The variable
@@ -23,6 +27,13 @@ public class EnumAndAnnotation {
 
     public static void main(String[] args){
         System.out.println(isWeekday(DaysInAWeek.MONDAY));
+
+        Set<DaysInAWeek> daySet = EnumSet.allOf(DaysInAWeek.class);
+
+        for(DaysInAWeek day : daySet){
+            System.out.println("name: " + day.name() + " ordinal: " + day.ordinal());
+        }
+
     }
 
 
