@@ -1,6 +1,4 @@
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class EnumAndAnnotation {
     /*
@@ -33,6 +31,9 @@ public class EnumAndAnnotation {
         for(DaysInAWeek day : daySet){
             System.out.println("name: " + day.name() + " ordinal: " + day.ordinal());
         }
+
+        Map<DaysInAWeek, String> dayMap = new EnumMap<DaysInAWeek, String>(DaysInAWeek.class);
+        dayMap.put(DaysInAWeek.MONDAY, "this is monday!");
 
     }
 
