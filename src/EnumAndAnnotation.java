@@ -18,8 +18,13 @@ public class EnumAndAnnotation {
         SUNDAY
     }
 
+    public @interface AnnotationDemo{
+        //with attributes
+        String name();
+    }
+
     public static boolean isWeekday(DaysInAWeek day){
-        return day != DaysInAWeek.SATURDAY && day != DaysInAWeek.SUNDAY;
+        return day != DaysInAWeek.SATURDAY && day !=x DaysInAWeek.SUNDAY;
     }
 
 
@@ -34,6 +39,8 @@ public class EnumAndAnnotation {
 
         Map<DaysInAWeek, String> dayMap = new EnumMap<DaysInAWeek, String>(DaysInAWeek.class);
         dayMap.put(DaysInAWeek.MONDAY, "this is monday!");
+
+        //@AnnotationDemo(name = "name as a string");
 
     }
 
