@@ -17,7 +17,7 @@ public class ExceptionsHandling {
     public static void validateInput(int positiveNumver){
         //use unchecked exception
         if(positiveNumver <= 0){
-            throw new IndexOutOfBoundsException("Malformed input!");
+            throw new IllegalArgumentException("Malformed input!");
         }
     }
 
