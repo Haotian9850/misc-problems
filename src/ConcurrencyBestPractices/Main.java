@@ -1,5 +1,6 @@
 package ConcurrencyBestPractices;
 
+import java.util.*;
 import java.util.concurrent.*;
 
 public class Main {
@@ -37,6 +38,14 @@ public class Main {
         Integer value = futureResult.get(5, TimeUnit.SECONDS);
 
         System.out.println(value);
+
+        //demo
+        HashSet<Integer> set = new HashSet<>();
+        HashMap<Integer, String> dict = new HashMap<>();
+        Set<Integer> cocurrentSet = Collections.synchronizedSet(set);
+        Map<Integer, String> concurrentMap = Collections.synchronizedMap(dict);
+
+
     }
 
 

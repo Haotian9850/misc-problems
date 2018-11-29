@@ -57,7 +57,7 @@ public class DeadlockDemo {
         });
 
         t1.run();
-        
+
     }
 
 }
