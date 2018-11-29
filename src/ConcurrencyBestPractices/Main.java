@@ -1,7 +1,6 @@
 package ConcurrencyBestPractices;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 public class Main {
 
@@ -15,7 +14,7 @@ public class Main {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException, ExecutionException, TimeoutException {
         System.out.println("Testing started...");
 
         //create new thread pool
@@ -26,6 +25,20 @@ public class Main {
                 System.out.println("fire-and-forget!");
             }
         });
+
+        //Future: may not be available immediately, but can use .get() to wait
+        Future<Integer> futureResult = executor.submit(new Callable<Integer>() {
+            @Override
+            public Integer call() throws Exception {
+                return 29;
+            }
+        });
+
+        Integer value = futureResult.get(5, TimeUnit.SECONDS);
+
+        System.out.println(value);
     }
+
+
 
 }
