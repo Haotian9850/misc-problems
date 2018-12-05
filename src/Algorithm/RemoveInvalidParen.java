@@ -64,9 +64,15 @@ public class RemoveInvalidParen {
         return true;
     }
 
+    public static void visualizeStrList(List<String> list){
+        for(String s : list){
+            System.out.println(s);
+        }
+    }
 
     public static void main(String[] args){
-
+        List<String> resultList = remove("()())()");
+        visualizeStrList(resultList);
     }
 
 }
