@@ -2,53 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d32da7-81b5-43dd-8a31-d66e89c655b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BoardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Clone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcurrencyBestPractices/DeadlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcurrencyBestPractices/DeadlockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcurrencyBestPractices/LocksDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcurrencyBestPractices/LocksDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcurrencyBestPractices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcurrencyBestPractices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/RedShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/RedShapeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/ShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/ShapeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/ActorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/ActorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/MovieScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/MovieScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/ActorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/ActorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/MovieScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/MovieScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/DoublyListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumAndAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/EnumAndAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/ExceptionsHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/FindWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IPValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/IPValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedlistPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedlistPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LucasSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LucasSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/ProxyImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/ProxyImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/RealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/RealImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/ReverseDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonPattern/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonPattern/SingleObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordBreakII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/WordBreakII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/findNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/BoardGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/Clone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/DoublyListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/EnumAndAnnotation$AnnotationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/EnumAndAnnotation$DaysInAWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/EnumAndAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/ExceptionsHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/FindWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/IPValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/LinkedlistPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/LucasSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/META-INF/misc-problems.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/ReverseDoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/WordBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/WordBreakII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/misc-problems/findNumber.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,15 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DependencyInjectionDemo/ConstructorInjection/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,11 +69,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingleObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/IntegerToEnglishWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+              <folding>
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ModifiedFibonacci.java" />
         <option value="$PROJECT_DIR$/src/LucasSequence.java" />
         <option value="$PROJECT_DIR$/src/BoardGame.java" />
         <option value="$PROJECT_DIR$/src/WordBreak.java" />
@@ -220,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/MovieScene.java" />
         <option value="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/Main.java" />
         <option value="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjection/ActorImpl.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/IntegerToEnglishWords.java" />
       </list>
     </option>
   </component>
@@ -249,6 +227,12 @@
               <item name="misc-problems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="misc-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="misc-problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,7 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543970666537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543971770210" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -281,7 +265,7 @@
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="DependencyInjectionDemo.SetterInjection.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithm.IntegerToEnglishWords" />
       <module name="misc-problems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,7 +289,7 @@
     <frame x="43" y="25" width="1877" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13926816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13926816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,17 +314,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Run" order="8" weight="0.42456406" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.42435828" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algorithm/LucasSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -717,6 +694,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/IntegerToEnglishWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding>
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
