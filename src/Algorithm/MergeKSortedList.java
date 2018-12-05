@@ -1,5 +1,6 @@
 package Algorithm;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MergeKSortedList {
@@ -53,8 +54,14 @@ public class MergeKSortedList {
 
     public static void main(String[] args){
         int[] testArray = {1, 2, 3, 4, 5, 6, 7};
-        ListNode head = new ListNode(testArray);
-        head.visualize();
+        int[] listArray1 = {2, 15, 16, 456, 999, 12345, 123456};
+        int[] listArray2 = {0, 0, 0, 1, 1, 1, 2, 2, 3};
+        ListNode head1 = new ListNode(testArray);
+        ListNode head2 = new ListNode(listArray1);
+        ListNode head3 = new ListNode(listArray2);
+        List<ListNode> testList = Arrays.asList(head1, head2, head3);
+        ListNode result = merge(testList);
+        result.visualize();
     }
 
 }
