@@ -1,40 +1,32 @@
 package Algorithm;
 
 public class ListNode {
-    public int val;
-    public ListNode next;
 
-    public ListNode(){
-        //default constructor
-        this.val = -1;
-        this.next = null;
+    int val;
+    ListNode next;
+    ListNode(int x){
+        this.val = x;
     }
 
-    public ListNode(int val) {
-        this.val = val;
-        this.next = null;
-    }
-
-    public ListNode(int[] nums){
+    ListNode(int[] nums){
         this.val = nums[0];
         ListNode ptr = this;
-        for(int i = 1; i < nums.length; ++ i){
-            ListNode newNode = new ListNode(nums[i]);
-            ptr.next = newNode;
-            ptr = ptr.next;
+        if(nums.length > 1){
+            for(int i = 1; i < nums.length; ++ i){
+                ptr.next = new ListNode(nums[i]);
+                ptr = ptr.next;
+            }
         }
     }
 
-    @Override
-    public String toString(){
-        StringBuilder result = new StringBuilder();
-        ListNode ptr = this;
+    public void visualize(){
+        ListNode ptr = this.next;
+        System.out.print(this.val);
         while(ptr != null){
-            result.append(ptr.val);
-            result.append("->");
+            System.out.print(" -> " + ptr.val);
             ptr = ptr.next;
         }
-        return result.toString().substring(0, result.toString().length() - 2);
     }
 
 }
+
