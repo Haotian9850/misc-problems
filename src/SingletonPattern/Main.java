@@ -6,7 +6,7 @@ public class Main {
 
         SingleObject demoObject = SingleObject.getInstance();
         System.out.println(demoObject.toString());
-    
+
     }
 
 }
