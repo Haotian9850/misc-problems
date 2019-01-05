@@ -1,10 +1,10 @@
 package CommandPattern;
 
-public class SellStock implements Order {
+public class SellStockOrder implements Order {
     private Stock stock;
     private int quantity;
 
-    public SellStock(Stock stock, int quantity){
+    public SellStockOrder(Stock stock, int quantity){
         this.quantity = quantity;
         this.stock = stock;
     }

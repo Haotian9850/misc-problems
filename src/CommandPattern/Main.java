@@ -10,8 +10,8 @@ public class Main {
         Stock testStock = new Stock("ABCD", 29);
 
         //initiate orders
-        Order buyStockOrder = new BuyStock(testStock, 9);
-        Order sellStockOrder = new SellStock(testStock, 12);
+        Order buyStockOrder = new BuyStockOrder(testStock, 9);
+        Order sellStockOrder = new SellStockOrder(testStock, 12);
 
         //init broker (order processor)
         Broker broker = new Broker();
@@ -20,8 +20,8 @@ public class Main {
 
         broker.placeOrder();
 
-        Order buyStockOrder2 = new BuyStock(testStock, 1);
-        Order sellStockOrder2 = new SellStock(testStock, 100);
+        Order buyStockOrder2 = new BuyStockOrder(testStock, 100);
+        Order sellStockOrder2 = new SellStockOrder(testStock, 100);
 
         broker.takeOrder(buyStockOrder2);
         broker.takeOrder(sellStockOrder2);
