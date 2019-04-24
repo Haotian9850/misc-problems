@@ -25,7 +25,7 @@ public class RungeKuttaCalculator {
     }
 
     public double func(double x, double y){
-        return 3.0 - (y / x);   //RHS of original differential equation
+        return Math.sqrt(4 * x + 9 * y * y);   //RHS of original differential equation
     }
 
     public double calculatek_n1(){
@@ -81,8 +81,8 @@ public class RungeKuttaCalculator {
 
 
     public static void main(String[] args){
-        RungeKuttaCalculator testObj = new RungeKuttaCalculator(0.25, 1.0, 9.0);
-        for(int i = 0; i < 5; ++ i){
+        RungeKuttaCalculator testObj = new RungeKuttaCalculator(0.2, 0.0, 2.0);
+        for(int i = 0; i < 8; ++ i){
             testObj.nextRound();
         }
     }

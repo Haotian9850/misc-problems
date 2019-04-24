@@ -24,7 +24,7 @@ public class ImprovedEulerMethodCalculator {
     }
 
     public double func(double x, double y){
-        return 3 - (y / x);   //RHS of original differential equation
+        return Math.sqrt(4 * x + 9 * y * y);   //RHS of original differential equation
     }
 
     public double calculatek_n1(){
@@ -63,8 +63,8 @@ public class ImprovedEulerMethodCalculator {
     }
 
     public static void main(String[] args){
-        ImprovedEulerMethodCalculator testObj = new ImprovedEulerMethodCalculator(0.25, 1.0, 7.0);
-        for(int i = 0; i < 5; ++ i){
+        ImprovedEulerMethodCalculator testObj = new ImprovedEulerMethodCalculator(0.2, 0.0, 2.0);
+        for(int i = 0; i < 8; ++ i){
             testObj.nextRound();
         }
     }
